@@ -261,7 +261,7 @@
 }
 @media(max-width: 500px){
     .map_img{
-        width: 100%;
+        width: 95%;
         margin: 0 auto;
     }
 }
@@ -272,7 +272,7 @@
 }
 @media(max-width: 500px){
     .map_input{
-        width: 92%;
+        width: 90%;
     }
 }
 .map_input input{
