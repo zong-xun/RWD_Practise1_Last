@@ -85,12 +85,11 @@ index css 設定
 		top: 56px;
 		z-index: 1001;
 		background-color: black;
-		
-		transition: height 1.3s;
+		opacity:1;
+		transition: opacity 1.5s;
 	}
 	.menu_open{
-		/* display: none; */
-		height: 0px;
+		opacity:0;
 	}
 }
 .menu ul {
@@ -102,12 +101,8 @@ index css 設定
 	.menu ul {
 		display: block;
 		margin-top: 15px;
-		opacity:0;
-		transition: opacity 1.5s;
 	}
-	.menu_ul_open{
-		opacity:1 !important;
-	}
+
 }
 .menu li{
 	font-size: 16px;
