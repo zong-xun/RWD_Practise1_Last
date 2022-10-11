@@ -273,6 +273,7 @@
 @media(max-width: 500px){
     .map_input{
         width: 90%;
+        margin-top: 14px;
     }
 }
 .map_input input{
