@@ -88,7 +88,6 @@ index css 設定
 		display: block;
 		position: absolute;
     	width: 100%;
-		height: 150px;
 		top: 56px;
 		z-index: 1001;
 		background-color: black;
@@ -134,7 +133,7 @@ index css 設定
 	}
 	.menu li:last-child{
 		margin-right: 0px;
-		margin-bottom: 0px;
+		margin-bottom: 15px;
 	}
 }
 .banner{

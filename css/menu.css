@@ -207,8 +207,14 @@ font-weight: bold;
 .shopping_cart:hover{
     background-color: #FF5E45;
 }
-.shopping_cart:hover ~ p{
+.shopping_cart:active{
+    background-color: #FF5E45;
+}
+.shopping_cart:hover > p{
     color: #FFFFFF ; 
+}
+.shopping_cart:active > p{
+    background-color: #FF5E45;
 }
 .shopping_cart_img{
     height: 30px;
