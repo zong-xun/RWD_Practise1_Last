@@ -50,6 +50,13 @@ table {
 /*
 index css 設定
 */
+/* body,html{
+	height: 100%;
+}
+.wrap{
+	position: relative;
+	height: 100%;
+} */
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -163,8 +170,90 @@ index css 設定
 	margin-bottom: 26px;
 }
 
+.footer{
+	/* position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    background-color: #FFF3EE;
+    display: flex;
+    padding: 50px 5%;
+    justify-content: space-between;
+}
+@media(max-width: 500px){
+    .footer{
+        justify-content: space-around;
+    }
+}
+.footer_logo{
+    font-size: 38px;
+    color: #3D1101;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
 
+@media(max-width: 768px){
+    .footer_logo{
+        font-size: 27px;
+    }
+}
+.footer_logo p{
+    text-align: end;
+}
+/* .footer_google{
+    background-image: url(../image/);
+	background-repeat: no-repeat;
+} */
+.footer_twitter{
+    width: 31px;
+    height: 31px;
+    background-image: url(../image/twitter.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_FB{
+    width: 31px;
+    height: 31px;
+    background-image: url(../image/fb.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 12px;
+}
 
+.footer_text1 ,.footer_text2 , .footer_data{
+    width: 30%;
+}
+@media(max-width: 500px){
+    .footer_text1 ,.footer_text2 , .footer_data{
+        width: 45%;
+    }
+}
+@media(max-width: 500px){
+    .footer_text1{
+        display: none;
+    }
+}
+.footer_text1 ,.footer_text2 {
+    color: #3D1101;
+    font-size: 16px;
+}
+.footer li {
+    list-style-type: disc;
+    line-height: 28px;
+}
+.footer_text1 P:first-child,.footer_text2 P:first-child{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.footer_data_img{
+    display: flex;
+    justify-content: end;
+    margin-top: 22px;
+}
+
+/* 
+參考別人的漢堡
+ */
 
 #nav-icon3{
 	display: none;
