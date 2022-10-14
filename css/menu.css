@@ -204,18 +204,6 @@ font-weight: bold;
     margin-bottom: 10px;
     cursor: pointer;
 }
-.shopping_cart:hover{
-    background-color: #FF5E45;
-}
-.shopping_cart:active{
-    background-color: #FF5E45;
-}
-.shopping_cart:hover > p{
-    color: #FFFFFF ; 
-}
-.shopping_cart:active > p{
-    background-color: #FF5E45;
-}
 .shopping_cart_img{
     height: 30px;
     width: 30px;
@@ -227,4 +215,17 @@ font-weight: bold;
 .shopping_cart p{
     font-size: 16px;
     font-weight: bold;
+}
+.shopping_cart a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+}
+.shopping_cart a:hover{
+    background-color: #FF5E45;
+}
+.shopping_cart a:hover >p {
+    color: #FFFFFF ; 
 }
