@@ -81,9 +81,10 @@
     border-right: none;
     max-width: 424px;
     width: 100%;
+    height: 94%;
 }
 .menu_search_img{
-    height: 86%;
+    height: 100%;
     width: 26px;
     background-image: url(../image/search.png);
 	background-repeat: no-repeat;
