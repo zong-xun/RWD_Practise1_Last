@@ -78,11 +78,12 @@
 }
 .menu_search input{
     border: 2px solid #3D1101;
+    border-right: none;
     max-width: 424px;
     width: 100%;
 }
 .menu_search_img{
-    height: 26px;
+    height: 86%;
     width: 26px;
     background-image: url(../image/search.png);
 	background-repeat: no-repeat;
@@ -98,10 +99,15 @@
     align-items: center;
     font-size: 16px;
     color: #3D1101;
+    
 }
 .menu_checkout p{
 font-weight: bold;
+cursor: pointer;
 }
+.menu_checkout p:hover{
+color:red
+    }
 .menu_checkout_line{
     height: 20px;
     margin: 0  10px;
@@ -131,6 +137,7 @@ font-weight: bold;
     background: #FFF3DA;;
     box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
     margin-bottom: 32px;
+    position: relative;
 }
 @media(max-width: 768px){
     .menu_options_box{
@@ -228,4 +235,20 @@ font-weight: bold;
 }
 .shopping_cart a:hover >p {
     color: #FFFFFF ; 
+}
+
+.love{
+    height: 30px;
+    width: 30px;
+    background-image: url(../image/love_pink_red_valentine_icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-size: contain;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+.love:hover{
+    background-image: url(../image/love_valentine_romance_romantic_icon.png);
 }
