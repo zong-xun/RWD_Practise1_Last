@@ -46,7 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+html, body {
+	height: 100%; /*外層高度100%*/
+  }
 /*
 index css 設定
 */
@@ -57,10 +59,14 @@ index css 設定
 	position: relative;
 	height: 100%;
 } */
+.wrap{
+	min-height: 100%; /*外層高度100%*/
+	background: #EFE9E7;
+}
 .header{
 	display: flex;
 	justify-content: space-between;
-	background-color: black;
+	background-color: #272727;
 	height: 56px;;
 }
 .LOGO{
@@ -90,9 +96,9 @@ index css 設定
     	width: 100%;
 		top: 56px;
 		z-index: 1001;
-		background-color: black;
+		background-color: #272727;
 		opacity:1;
-		transition: opacity 1.5s;
+		transition: opacity 0.5s;
 	}
 	.menu_open{
 		opacity:0;
@@ -139,11 +145,21 @@ index css 設定
 .banner{
 	height: 420px;
 	max-width: 100%;
-	background-image: url(../image/header_desktop.png);
+	/* background-image: url(../image/header_desktop.png);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center center; */
 	background-color: black;
 	position: relative;
+}
+@media(max-width: 500px){
+	.banner{
+		height: 360px;
+	}
+}
+@media(max-width: 376px){
+	.banner{
+		height: 320px;
+	}
 }
 .banner_conter{
 	background: rgba(0,0,0,0.35);
@@ -163,6 +179,11 @@ index css 設定
 	font-size: 36px;
 	margin-top: 20px;
 	margin-bottom: 16px;
+}
+@media(max-width: 768px){
+	.banner_conter p:first-child{
+		font-size: 24px;
+	}
 }
 .banner_conter p:last-child{
 	margin-top: 10px;

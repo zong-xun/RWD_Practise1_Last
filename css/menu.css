@@ -3,6 +3,7 @@
     padding: 50px;
     display: flex;
     justify-content: space-around;
+    min-height: calc(100vh - 420px - 56px );
 }
 @media(max-width: 768px){
     .menu_contount{
@@ -138,6 +139,7 @@ color:red
     box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
     margin-bottom: 32px;
     position: relative;
+    cursor: pointer;
 }
 @media(max-width: 768px){
     .menu_options_box{
@@ -251,4 +253,37 @@ color:red
 }
 .love:hover{
     background-image: url(../image/love_valentine_romance_romantic_icon.png);
+}
+.dialog_menu_display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media(max-width: 768px){
+    .dialog_menu_display{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+.dialog_menu_title{
+    color: #3D1101;
+    font-weight: bold;
+    font-size: 24px;
+}
+.dialog_menu{
+    color: #3D1101;
+    font-weight: bold;
+}
+.dialog_menu p:first-child{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.dialog_menu_btn{
+
+}
+.dialog_menu_btn:hover{
+    background-color: #FF5E45;
+    color: #FFFFFF ; 
 }
